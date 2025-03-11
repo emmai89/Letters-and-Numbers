@@ -48,12 +48,18 @@ public class Numbers {
                 }
             }
             else {
-                System.out.print("Invalid choice! Enter 'v' for vowel or 'c' for consonant. ");
+                System.out.print("Invalid choice! Enter 'L' for a large number or 'S' for a small number");
             }
-                
             System.out.println("Generated letters: " +numbers); 
     
         }while (numbers.size() < 6);
-    
+
+        targetNum = rn.nextInt(900)+100;
+        System.out.println("Target number is: " +targetNum);
+    }
+
+    private void numberSolver(){
+
+        // opeerations: + x / -
     }
 }
