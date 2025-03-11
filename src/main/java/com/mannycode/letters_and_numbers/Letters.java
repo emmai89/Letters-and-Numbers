@@ -61,6 +61,7 @@ public class Letters {
         boolean end = false;
 
         do {
+            System.out.println("Letters: " +letters);
             System.out.println("What is the longest word you can make?: ");
             guess = scanner.nextLine();
             guess = guess.trim().toLowerCase();
@@ -91,8 +92,6 @@ public class Letters {
             }
     
         } while (!end);
-
-        scanner.close();
     }
 
     // Getters
