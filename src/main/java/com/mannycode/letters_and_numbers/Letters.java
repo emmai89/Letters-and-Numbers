@@ -1,3 +1,5 @@
+package com.mannycode.letters_and_numbers;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.HashSet;

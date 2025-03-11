@@ -1,3 +1,6 @@
+package com.mannycode;
+
+import com.mannycode.letters_and_numbers.Letters;
 
 public class Main{  
     public static void main(String args[]){  
@@ -6,7 +9,6 @@ public class Main{
 
         letters.userInput();
 
-        letters.userGuess();
-        
+        letters.userGuess();    
     }
 }

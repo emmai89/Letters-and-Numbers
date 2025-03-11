@@ -1,3 +1,5 @@
+package com.mannycode.letters_and_numbers;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
